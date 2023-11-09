@@ -1,0 +1,22 @@
+{
+  "name": "final4starter",
+  "version": "1.0.0",
+  "description": "its final check",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "sajib",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.27.8",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0"
+  }
+}

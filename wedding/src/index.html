@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Creative Portfolio & Agency Template is a simple Smooth Personal Portfolio and Agency Based Template" />
+  <meta name="keywords" content="Personal, Portfolio, Agency, Onepage, Html, Business, Blog, Parallax, Perticle, Video" />
+    <title>Creative Photography</title>
+  <link rel="shortcut icon" type="image/x-icon" href="img/favi.png">
+  <!--css for google font-->
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@700&display=swap" rel="stylesheet">
+  <!--css for bootstrap responsive-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--css for fixed navbar-->
+  <link rel="stylesheet" href="css/navbar-fixed.css">
+  <!--css for fontawesome-->
+  <script src="https://kit.fontawesome.com/75f2f019f3.js" crossorigin="anonymous"></script>
+  <!--css for gallery photo popup-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+  <!--css for owl carousel-->
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="stylesheet" href="css/owl.theme.default.css">
+  <!--experiment
+  <link rel="stylesheet" href="https://colorlib.com/etc/bwiz/colorlib-wizard-6/fonts/material-design-iconic-font/css/material-design-iconic-font.css">
+  <link rel="stylesheet" href="https://colorlib.com/etc/bwiz/colorlib-wizard-6/css/style.css">
+-->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!--css for main core css-->
+  <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+  
+  <!--SCROLL TO TOP-->
+    <a href="#home-section" class="scrolltotop"><i class="fa fa-long-arrow-up"></i></a>
+    <!--START TOP AREA-->
+
+  <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
+    <div class="container">
+      <a href="#home-section" class="navbar-brand"><img src="img/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item" id="item1">
+            <a class="nav-link" href="#home-section">Home</a>
+          </li>
+          <li class="nav-item" id="item2">
+            <a class="nav-link" href="#about-section">About</a>
+          </li>
+          <li class="nav-item" id="item3">
+            <a class="nav-link" href="#service-section">Service</a>
+          </li>
+          <li class="nav-item" id="item4">
+            <a class="nav-link" href="#work-section">Work</a>
+          </li>
+          <li class="nav-item" id="item5">
+            <a class="nav-link" href="#price-section">Price</a>
+          </li>
+          <li class="nav-item" id="item6">
+            <a class="nav-link" href="#testimonial-section">Testimonial</a>
+          </li>
+          <li class="nav-item" id="item7">
+            <a class="nav-link" href="#contact-section" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+      <!--####START HERE#####-->
+<section id="home-section" class="text-center text-light">
+  <div class="dark-overlay">
+  <div class="home-inner">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="home-title">WE ARE CREATIVE</h2>
+          <div>
+            <h1 id="typewriter" class="display-5 type-title"></h1>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta massa sit amet magna luctus euismod. Maurn malesuada nuncLorem ipsum dolor sit ame Lorem ipsum dolor sit amet.</p>
+          <a href="#"><button class="btn btn-primary m-2" type="button" name="button">CONTACT US</button></a>
+          <a href="#"><button class="btn btn-primary m-2" type="button" name="button">LEARN MORE</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!--ABOUT SECTION-->
+<section id="about-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-7" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <div class="about-section-title">
+          <div class="about-title-box" data-parallax='{"x":200}'></div>
+          <h1>WE ARE CREATIVE</h1>
+        </div>
+        <p  class="mt-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas aut quidem numquam! Molestias nisi odio itaque eaque vitae dolorem ipsum a, exercitationem laboriosam in quibusdam debitis sequi impedit quia officiis, esse ut fuga doloribus voluptas magnam quasi quo atque dolorum.<br><br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas aut quidem numquam! Molestias nisi odio itaque eaque vitae dolorem ipsum a, exercitationem laboriosam in quibusdam debitis sequi impedit quia officiis, esse ut fuga doloribus voluptas magnam quasi quo atque dolorum.</p>
+        <button type="button" name="button" class="btn btn-primary">View More</button>
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-5">
+        <div class="img-border ml-auto" data-aos="fade-zoom-in" data-aos-duration="500" data-aos-easing="ease-in-back" data-aos-offset="0"><img src="img/about.jpg" class="img-fluid" alt=""></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--SAMPLE VIDEO SECTION-->
+<section id="video-section" onclick="hide()" class="text-center text-light">
+  <div class="dark-overlay">
+
+    <video id="myVideo" width="100%" height="500px" controls>
+    <source src="img/Nature.mp4" type="video/mp4">
+    </video>
+
+          <div id="for-center-bg-icon" onclick ="playme()">
+            <div class="dark-overlay1"></div>
+            <div class="play-icon-label" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+              <i class="fa-solid fa-circle-play"></i>
+              <h2>Look Inside By Our Video</h2>
+          </div>
+        </div>
+        </div>
+</section>
+
+<!--service section-->
+<section id="service-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="service-section-title">
+          <div class="service-title-box" data-parallax='{"x":200}'></div>
+          <h1>OUR SERVICES</h1>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+          <div class="box text-center p-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="500">
+              <i class="fa-solid fa-camera-retro"></i>
+              <h3 id="service-title">Pre/Post<br>Wedding Shoot</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta necessitatibus commodi reprehenderit, dolores, labore illum. Unde quibusdam nihil nulla sunt.</p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 mt-4">
+          <div class="box text-center p-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="600">
+              <i class="fa-solid fa-camera-retro"></i>
+              <h3 id="service-title">Outdoor/Event<br>Photography</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta necessitatibus commodi reprehenderit, dolores, labore illum. Unde quibusdam nihil nulla sunt.</p>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-4 mt-4">
+          <div class="box text-center p-4" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="700">
+              <i class="fa-solid fa-camera-retro"></i>
+              <h3 id="service-title">Videography & Cinematography</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta necessitatibus commodi reprehenderit, dolores, labore illum. Unde quibusdam nihil nulla sunt.</p>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLARY SECTION -->
+<section id="gallery-section">
+  <div class="container">
+        <div class="row">
+           <div class="col-lg-12 text-right">
+             <div class="gallery-section-title myheader mb-5" data-aos="fade-zoom-in" data-aos-duration="500" data-aos-easing="ease-in-back" data-aos-offset="0">
+               <div class="gallery-title-box" data-parallax='{"x":-200}'></div>
+               <h1>OUR CREATIVITY</h1>
+             </div>
+           </div>
+        </div>
+        <div class="portfolio-menu mt-2 mb-4" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
+           <ul>
+              <li class="active" data-filter="*">ALL</li>
+              <li class="filter2" data-filter=".gts">BRANDING</li>
+              <li class="filter3" data-filter=".lap">ILLUSTRATION</li>
+              <li class="filter4" data-filter=".selfie">WEDDING</li>
+           </ul>
+        </div>
+        <div class="portfolio-item row">
+           <div class="item selfie col-md-4 col-lg-4 col-sm-6 col-xs-12">
+              <a href="img/p1.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+              <img class="img-fluid" src="img/p1.jpg" alt="">
+              </a>
+           </div>
+           <div class="item gts col-md-4 col-lg-4 col-sm-6 col-xs-12">
+              <a href="img/p2.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+              <img class="img-fluid" src="img/p2.jpg" alt="">
+              </a>
+           </div>
+           <div class="item selfie col-md-4 col-lg-4 col-sm-6 col-xs-12">
+              <a href="img/p3.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+              <img class="img-fluid" src="img/p3.jpg" alt="">
+              </a>
+           </div>
+           <div class="item gts col-md-4 col-lg-4 col-sm-6 col-xs-12">
+              <a href="img/p5.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+              <img class="img-fluid" src="img/p5.jpg" alt="">
+              </a>
+           </div>
+           <div class="item gts col-md-4 col-lg-4 col-sm-6 col-xs-12">
+              <a href="img/p4.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+              <img class="img-fluid" src="img/p4.jpg" alt="">
+              </a>
+           </div>
+
+           <div class="item gts col-md-4 col-lg-4 col-sm-6 col-xs-12">
+              <a href="img/p7.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+              <img class="img-fluid" src="img/p7.jpg" alt="">
+              </a>
+           </div>
+           <div class="item lap col-md-4 col-lg-4 col-sm-12 col-xs-12">
+              <a href="img/p8.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+              <img class="img-fluid" src="img/p8.jpg" alt="">
+              </a>
+           </div>
+           <div class="item gts col-md-4 col-lg-4 col-sm-6 col-xs-12">
+              <a href="img/p9.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+              <img class="img-fluid" src="img/p9.jpg" alt="">
+              </a>
+           </div>
+           <div class="item gts col-md-4 col-lg-4 col-sm-6 col-xs-12">
+              <a href="img/p10.jpg" class="fancylight popup-btn" data-fancybox-group="light">
+              <img class="img-fluid" src="img/p10.jpg" alt="">
+              </a>
+           </div>
+
+        </div>
+     </div>
+</section>
+
+<!-- PRICE SECTION -->
+<section id="price-section" class="text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="price-section-title" data-aos="fade-zoom-in" data-aos-duration="500" data-aos-easing="ease-in-back" data-aos-offset="0">
+          <div class="price-title-box" data-parallax='{"x":200}'></div>
+          <h1>OUR PRICES</h1>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 col-lg-4">
+        <div class="card" data-aos="fade-up" data-aos-duration="500">
+          <div class="card-head p-4">
+              <h5>BASIC</h5>
+              <h3>TK.15,000/=</h3>
+          </div>
+          <hr>
+          <div class="card-body">
+            <div class="d-flex justify-content-center">
+              <p class="mb-0">1 Top Photographer + 1 Top Associate Photographer.</p>
+            </div>
+          <hr>
+            <div class="d-flex justify-content-center">
+              <p class="mb-0">Event Duration: 4 Hours</p>
+            </div>
+          <hr>
+            <div class="d-flex justify-content-center">
+              <p class="mb-0">Number of Photos: Unlimited (All post processed)</p>
+            </div>
+          <hr>
+            <div class="d-flex justify-content-center">
+              <p class="mb-0">Print: 4R (4”x6″) Matte Prints: 100 copies</p>
+            </div>
+          <hr>
+            <div class="d-flex justify-content-center">
+              <p class="mb-0">* All soft copy of photos will be delivered in Dream Art Photo's Pen drive.</p>
+            </div>
+          </div>
+        <hr>
+        <div class="card-foot p-4">
+          <a href="#"><button class="btn btn-primary m-2" type="button" name="button">CONTACT NOW</button></a>
+        </div>
+
+        </div>
+      </div>
+      <div class="col-md-12 col-lg-4">
+        <div class="card" data-aos="fade-up" data-aos-duration="600">
+          <div class="card-head p-4">
+              <h5>STANDARD</h5>
+              <h3>TK.25,000/=</h3>
+          </div>
+          <hr>
+          <div class="card-body">
+            <div class="d-flex justify-content-center">
+              <p class="mb-0">1 Senior Photographer + 1 Top Associate Photographer.</p>
+            </div>
+          <hr>
+            <div class="d-flex justify-content-center">
+              <p class="mb-0">Event Duration: 4 Hours</p>
+            </div>
+          <hr>
+            <div class="d-flex justify-content-center">
+              <p class="mb-0">Number of Photos: Unlimited (All post processed)</p>
+            </div>
+          <hr>
+            <div class="d-flex justify-content-center">
+              <p class="mb-0">Print: 12L (12”x 18″) Matte Print: 1 copy</p>
+            </div>
+          <hr>
+          <div class="d-flex justify-content-center">
+            <p class="mb-0">Print: 5L (5”x7.5″) Matte Prints: 100 copies</p>
+          </div>
+        <hr>
+            <div class="d-flex justify-content-center">
+              <p class="mb-0">* All soft copy of photos will be delivered in Dream Art Photo's Pen drive.</p>
+            </div>
+          </div>
+        <hr>
+        <div class="card-foot p-4">
+          <a href="#"><button class="btn btn-primary m-2" type="button" name="button">CONTACT NOW</button></a>
+        </div>
+
+        </div>
+      </div>
+      <div class="col-md-12 col-lg-4">
+        <div class="card" data-aos="fade-up" data-aos-duration="700">
+          <div class="card-head p-4">
+              <h5>PREMIUM</h5>
+              <h3>TK.35,000+/=</h3>
+          </div>
+          <hr>
+          <div class="card-body">
+            <div class="d-flex justify-content-center">
+              <p class="mb-0">1 Senior Photographer + 1 Top Photographer + 1 Top Associate Photographer</p>
+            </div>
+          <hr>
+            <div class="d-flex justify-content-center">
+              <p class="mb-0">Event Duration: 4 Hours</p>
+            </div>
+          <hr>
+            <div class="d-flex justify-content-center">
+              <p class="mb-0">Number of Photos: Unlimited (All post processed)</p>
+            </div>
+          <hr>
+            <div class="d-flex justify-content-center">
+              <p class="mb-0">Print: 20L (20”x30″) Matte Print: 1 copy +basic+standard</p>
+            </div>
+          <hr>
+            <div class="d-flex justify-content-center">
+              <p class="mb-0">* All soft copy of photos will be delivered in Dream Art Photo's Pen drive.</p>
+            </div>
+          </div>
+        <hr>
+        <div class="card-foot p-4">
+          <a href="#"><button class="btn btn-primary m-2" type="button" name="button">CONTACT NOW</button></a>
+        </div>
+
+        </div>
+      </div>
+
+    </div>
+    <p class="note mt-5" style="font-family:cursive">Note: Package prices can be increase and negotiable depending on requirements, place and current situation.</p>
+  </div>
+</section>
+
+<!--FACT-AREA-->
+<section id="fact-area">
+  <div class="fact-area-bg" data-stellar-background-ratio="0.6"></div>
+  <div class="container">
+
+	<div class="row text-center">
+	        <div class="col">
+    	        <div class="counter" data-aos="fade-up" data-aos-duration="500">
+                <i class="fa fa-check fa-icon"></i>
+                <h2 class='numscroller' data-min='1' data-max='3250' data-delay='5' data-increment='20'></h2>
+                 <h6 class="count-text">Project Complete</h6>
+              </div>
+	        </div>
+          <div class="col">
+              <div class="counter" data-aos="fade-up" data-aos-duration="650">
+                <i class="fa fa-thumbs-up fa-icon"></i>
+                <h2 class='numscroller' data-min='1' data-max='4260' data-delay='5' data-increment='30'></h2>
+                <h6 class="count-text">likes Us</h6>
+              </div>
+            </div>
+              <div class="col">
+                  <div class="counter" data-aos="fade-up" data-aos-duration="800">
+                    <i class="fa fa-star fa-icon"></i>
+                    <h2 class='numscroller' data-min='1' data-max='3250' data-delay='5' data-increment='20'></h2>
+                    <h6 class="count-text ">Rated Us</h6>
+                  </div>
+                </div>
+              <div class="col">
+                <div class="counter" data-aos="fade-up" data-aos-duration="950">
+                  <i class="fa fa-heart fa-icon"></i>
+                  <h2 class='numscroller' data-min='1' data-max='2500' data-delay='5' data-increment='20'></h2>
+                  <h6 class="count-text">Happy Clients</h6>
+                </div>
+              </div>
+         </div>
+</div>
+</section>
+
+<!--START TESTIMONIAL SECTION-->
+<section id="testimonial-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="section-title" data-aos="fade-zoom-in" data-aos-duration="500" data-aos-easing="ease-in-back" data-aos-offset="0">
+          <div class="title-box" data-parallax='{"x":-200}'></div>
+          <h1>TESTIMONIALS</h1>
+        </div>
+      </div>
+    </div>
+    <div class="row myrow">
+                <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 col-sm-12 col-xs-12 mt-5">
+                    <div class="testmonial-list owl-carousel owl-reponsive breakpoint">
+                        <div class="single-testmonial">
+                            <div class="author-img">
+                                <img src="img/testi.jpg" alt="">
+                            </div>
+                            <div class="testmonial-author-details">
+                                <div class="name-and-title">
+                                    <h4>Mehedi Hasan Nahid</h4>
+                                    <h5>Seo Ron design studio</h5>
+                                </div>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolorecat</p>
+                            </div>
+                        </div>
+                        <div class="single-testmonial">
+                            <div class="author-img">
+                                <img src="img/testi2.jpg" alt="">
+                            </div>
+                            <div class="testmonial-author-details">
+                                <div class="name-and-title">
+                                    <h4>Miss Angelina Leo</h4>
+                                    <h5>Web Developer</h5>
+                                </div>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolorecat</p>
+                            </div>
+                        </div>
+                        <div class="single-testmonial">
+                            <div class="author-img">
+                                <img src="img/testi3.jpg" alt="">
+                            </div>
+                            <div class="testmonial-author-details">
+                                <div class="name-and-title">
+                                    <h4>Ashekur Rahman Hridoy</h4>
+                                    <h5>Web Developer</h5>
+                                </div>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolorecat</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  </div>
+</section>
+
+<!--STORY SECTION-->
+<section id="story-section" class="story-area dark-bg">
+        <div class="single-story">
+            <div class="single-story-bg story-bg-one" data-stellar-background-ratio="0.6"></div>
+            <div class="container">
+                <div class="row">
+                    <div style="margin-left: auto;" class="col-md-6 col-lg-6 col-md-offset-6 col-lg-offset-6 col-sm-offset-6 col-sm-6 col-xs-12">
+                        <div class="single-story-content" data-aos="fade-up" data-aos-duration="500">
+                            <h3>Succeful 20 years of us!</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores atque ut similique itaque eveniet illo velit, ad consectetur necessitatibus, deleniti cumque voluptatum sequi nostrum nesciunt molestias sed voluptate temporibus, alias aliquid, ab est nam illum dolorem. Iusto ab blanditiis, porro.</p>
+                            <a href="#" class="readmore">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="single-story">
+            <div class="single-story-bg story-bg-two" data-stellar-background-ratio="0.6"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 col-md-offset-6 col-lg-offset-6 col-sm-6 col-sm-offset-6 col-xs-12">
+                        <div class="single-story-content" data-aos="fade-up" data-aos-duration="500">
+                            <h3>We are always beside you</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores atque ut similique itaque eveniet illo velit, ad consectetur necessitatibus, deleniti cumque voluptatum sequi nostrum nesciunt molestias sed voluptate temporibus, alias aliquid, ab est nam illum dolorem. Iusto ab blanditiis, porro.</p>
+                            <a href="#" class="readmore">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="single-story">
+            <div class="single-story-bg story-bg-three" data-stellar-background-ratio="0.6"></div>
+            <div class="container">
+                <div class="row">
+                    <div style="margin-left: auto;" class="col-md-6 col-lg-6 col-md-offset-6 col-lg-offset-6 col-sm-6 col-sm-offset-6 col-xs-12">
+                        <div class="single-story-content" data-aos="fade-up" data-aos-duration="500">
+                            <h3>Creative is something difference</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores atque ut similique itaque eveniet illo velit, ad consectetur necessitatibus, deleniti cumque voluptatum sequi nostrum nesciunt molestias sed voluptate temporibus, alias aliquid, ab est nam illum dolorem. Iusto ab blanditiis, porro.</p>
+                            <a href="#" class="readmore">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<!--experiment-->
+<section id="experiment">
+
+
+<!---->
+<!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        ...
+
+
+        <div class="wrapper">
+            <form action="">
+                <div id="wizard">
+
+                    <h4></h4>
+                    <section>
+                        <div class="form-header">
+                            <div class="avartar">
+                                <a href="#">
+                                    <img src="https://colorlib.com/etc/bwiz/colorlib-wizard-6/images/avartar.png" alt="">
+                                </a>
+                                <div class="avartar-picker">
+                                    <input type="file" name="file-1[]" id="file-1" class="inputfile" data-multiple-caption="{count} files selected" multiple />
+                                    <label for="file-1">
+                                        <i class="zmdi zmdi-camera"></i>
+                                        <span>Choose Picture</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="form-holder active">
+                                    <input type="text" placeholder="First Name" class="form-control" required>
+                                </div>
+                                <div class="form-holder">
+                                    <input type="text" placeholder="Last Name" class="form-control">
+                                </div>
+                                <div class="form-holder">
+                                    <input type="text" placeholder="Team Name" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-holder">
+                            <input type="text" placeholder="Email" class="form-control">
+                        </div>
+                        <div class="form-holder">
+                            <input type="password" placeholder="Create a password" class="form-control">
+                        </div>
+                    </section>
+
+                    <h4></h4>
+                    <section>
+                        <div class="grid">
+                            <div class="row">
+                                <a href="#" class="grid-item" style="background-image: url(https://colorlib.com/etc/bwiz/colorlib-wizard-6/images/programming-bg.jpg);">
+                                    <div class="inner">
+                                        <img src="https://colorlib.com/etc/bwiz/colorlib-wizard-6/images/programming.png" alt="">
+                                        <span>Programming</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="grid-item" style="background-image: url('https://colorlib.com/etc/bwiz/colorlib-wizard-6/images/research-bg.jpg');">
+                                    <div class="inner">
+                                        <img src="https://colorlib.com/etc/bwiz/colorlib-wizard-6/images/research.png" alt="">
+                                        <span>Research</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="grid-item" style="background-image: url('https://colorlib.com/etc/bwiz/colorlib-wizard-6/images/teacher-bg.jpg');">
+                                    <div class="inner">
+                                        <img src="https://colorlib.com/etc/bwiz/colorlib-wizard-6/images/teacher.png" alt="">
+                                        <span>Teacher</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="row">
+                                <a href="#" class="grid-item" style="background-image: url('images/tour-guide-bg.jpg');">
+                                    <div class="inner">
+                                        <img src="https://colorlib.com/etc/bwiz/colorlib-wizard-6/images/tour-guide.png" alt="">
+                                        <span>Tour Guide</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="grid-item" style="background-image: url('https://colorlib.com/etc/bwiz/colorlib-wizard-6/images/business-bg.jpg');">
+                                    <div class="inner">
+                                        <img src="https://colorlib.com/etc/bwiz/colorlib-wizard-6/images/business.png" alt="">
+                                        <span>Business</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="grid-item" style="background-image: url('https://colorlib.com/etc/bwiz/colorlib-wizard-6/images/artist-bg.jpg');">
+                                    <div class="inner">
+                                        <img src="https://colorlib.com/etc/bwiz/colorlib-wizard-6/images/artist.png" alt="">
+                                        <span>Artist</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+
+                    <h4></h4>
+                    <section>
+                        <div class="form-row">
+                            <div class="form-holder">
+                                <input type="text" placeholder="Street Name" class="form-control">
+                            </div>
+                            <div class="form-holder">
+                                <input type="text" placeholder="Street Number" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-holder">
+                                <input type="text" placeholder="City" class="form-control">
+                            </div>
+                            <div class="form-holder">
+                                <input type="text" placeholder="Country" class="form-control">
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </form>
+        </div>
+
+      ...
+
+    </div>
+  </div>
+</div>
+</section>
+
+<!--CONTACT US AREA-->
+    <section class="contact-area" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="contact-detaisls text-center">
+                        <div class="footer-logo">
+                            <a href="#"><img src="img/logo.png" alt=""></a>
+                        </div>
+                        <address>
+                                10, west point, little street, New York Sun Fransisco
+                            </address>
+                        <div class="address-details">
+                            <p>Contact Us: <a href="callto:+8801700000000">(123) 987-6543</a></p>
+                            <p>Email: <a href="mailto:youmail@youurmail.com">youmail@youurmail.com</a></p>
+                        </div>
+                        <ul class="social-bookmark d-flex justify-content-center">
+                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="map-area pt-3">
+              <div class="row">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.1617376073223!2d91.82342464897216!3d22.347521046757784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30acd8989efc2fbf%3A0xd2e81e3c83450528!2sKazir%20Dewri%20Cir%2C%20Chittagong%2C%20Bangladesh!5e0!3m2!1sen!2shk!4v1656052479445!5m2!1sen!2shk" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+            <!--MAP AREA END-->
+        </div>
+    </section>
+    <!--CONTACT US AREA END-->
+
+    <!--=================  FOOTER  START ====================-->
+
+
+      <!--FOOER AREA-->
+      <div class="footer-area">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="footer-copyright text-center">
+                          <p>Copyright &copy; <a href="http://sajibnath360.github.io/portfolio.github.io"> SAJIB</a> All Right Reserved.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!--FOOTER AREA END-->
+
+  <!--Base script -->
+  <script src="js/jquery-slim.min.js"></script>
+    <script src="js/numscroller-1.0.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <!-- for fixed scrolling navbar -->
+  <script src="js/navbar-fixed.js"></script>
+  <!--for typewritter -->
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <!-- parallax scrolling -->
+  <script src="js/jquery.parallax-scroll.js"></script>
+  <!--for gallery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+  <!--for owl carousel -->
+  <script src="js/owl.carousel.min.js"></script>
+
+  <!--experiment-->
+  <script src="https://colorlib.com/etc/bwiz/colorlib-wizard-6/js/jquery.steps.js"></script>
+  <script src="https://colorlib.com/etc/bwiz/colorlib-wizard-6/js/main.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    const instance = new Typewriter('#typewriter', {
+      strings: ['SOMETHING MORE PROFESSIONAL', 'SOMETHING MORE CREATIVE', 'SOMETHING MORE DIFFERENT'],
+      autoStart: true,
+      loop: true,
+      delay: 17,
+      deleteSpeed: 5,
+      cursor: '|',
+    });
+
+    /*----------------------------
+           SCROLL TO TOP
+       ------------------------------*/
+       $(window).scroll(function () {
+           var totalHeight = $(window).scrollTop();
+           if (totalHeight > 300) {
+               $(".scrolltotop").fadeIn();
+           } else {
+               $(".scrolltotop").fadeOut();
+           }
+       });
+
+//for video play
+function hide() {
+  document.getElementById('for-center-bg-icon').style.display = "none";
+  document.getElementById("myVideo").play();
+
+};
+
+//for onscroll navbar
+const mynav = document.querySelector('.navbar');
+window.onscroll = ()=>{
+  if(window.scrollY > 10){
+    mynav.classList.add('nav-change');
+    document.getElementById("mynavbar").style.background = "#000";
+  } else {
+    mynav.classList.remove('nav-change');
+    document.getElementById("mynavbar").style.background = "transparent";
+  }
+};
+
+//for gallery
+$('.portfolio-menu ul li').click(function(){
+         $('.portfolio-menu ul li').removeClass('active');
+         $(this).addClass('active');
+
+         var selector = $(this).attr('data-filter');
+         $('.portfolio-item').isotope({
+           filter:selector
+         });
+         return  false;
+        });
+        $(document).ready(function() {
+        var popup_btn = $('.popup-btn');
+        popup_btn.magnificPopup({
+        type : 'image',
+        gallery : {
+         enabled : true
+        }
+        });
+        });
+
+//===START FOR OWL CAROUSEL===//
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});
+/*---------------------------
+       TESTMONIAL SLIDER
+   -----------------------------*/
+   $('.testmonial-list').owlCarousel({
+       merge: false,
+       smartSpeed: 1000,
+       loop: true,
+       nav: false,
+       navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+       autoplay: true,
+       autoplayTimeout: 5000,
+       margin: 10,
+       responsiveClass: true,
+       responsive: {
+           0: {
+               items: 1
+           },
+           600: {
+               items: 1
+           },
+           1000: {
+               items: 1
+           }
+       }
+   });
+//START animation js
+AOS.init();
+
+//highlight navmenu
+$(window).scroll(function() {
+    var position = $(this).scrollTop();
+
+    $('section').each(function() {
+        var target = $(this).offset().top;
+        var id = $(this).attr('id');
+
+        if (position >= target) {
+            $('#mynavbar > ul > li > a').removeClass('activemenu');
+            $('#mynavbar > ul > li > a[href=#' + id + ']').addClass('activemenu');
+        }
+    });
+});
+  </script>
+</body>
+</html>

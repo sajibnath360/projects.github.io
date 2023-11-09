@@ -1,0 +1,32 @@
+$body-bg: #333;
+$font-color: #fff;
+$primary-color: #00AFF0;
+$secondary-color: #000000;
+$icon-font-size: 30px;
+
+body{
+  background: $body-bg;
+  color: $font-color;
+}
+.navbar{
+  border-bottom: 1px solid $secondary-color;
+  background: transparent;
+
+  .nav-link{
+    color: $font-color;
+  }
+}
+#home-section{
+  background: url("../img/main_bg.jpg") no-repeat center top;
+  background-size: cover;
+  min-height: 500px;
+
+  .home-inner{
+    padding-top: 150px;
+    padding-bottom: 50px;
+  }
+  .dark-overlay{
+    background: rgba(0,0,0,0.5);
+    min-height: 500px;
+  }
+}
