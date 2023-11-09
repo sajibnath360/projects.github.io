@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Yoga Class</title>
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700&display=swap" rel="stylesheet"> 
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/4124faa5ab.js" crossorigin="anonymous"></script>
+    <!-- VENDORS FILES -->
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/grid.css">
+    <!-- RESOURCES FILES\\  -->
+    <link rel="stylesheet" type="text/css" href="resources/css/styleyoga.css">
+    <link rel="stylesheet" href="resources/css/responsiveyoga.css">
+</head>
+<body>
+   
+   <!-- START HEADER SECTION -->
+   
+   <header id="home">
+       <nav>
+           <div class="row">
+               <ul class="main-nav">
+                   <li><span>&vert;</span><a href="#home">home</a></li>
+                   <li><span>&vert;</span><a href="#blog">blog</a></li>
+                   <li><span>&vert;</span><a href="#class">classes</a></li>
+                   <li><span>&vert;</span><a href="#contact">contact</a></li>
+                   <li><span>&vert;</span><a href="#">sign in</a><span>&vert;</span></li>
+               </ul>
+               <div class="mobile-menu">
+                   <span onclick="openNav()">&#9776;</span>
+                   <div id="myNav" class="overlay">
+                   <a href="javascript:void(0)" onclick="closeNav()" class="closebtn">&times;</a>
+                   <div class="overlay-content">
+                       <a onclick="closeNav()" href="#home">home</a>
+                       <a onclick="closeNav()" href="#blog">blog</a>
+                       <a onclick="closeNav()" href="#class">classes</a>
+                       <a onclick="closeNav()" href="#contact">contact</a>
+                       <a onclick="closeNav()" href="#">sign in</a>
+                   </div>
+                   </div>
+               </div>
+           </div>
+       </nav>
+       <div class="row">
+           <img src="resources/img/yogalogo.png" class="yogalogo" alt="YOGA ACADEMY">
+           <div class="hero-text-box">
+               <h1>YOGA<a href="#">CLASSES</a></h1>
+               <h3>body harmony</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+               <a href="#" class="btn btn-hero">More</a>
+           </div>
+       </div>
+   </header>
+   
+   <!-- END HEADER SECTION -->
+   
+   <!-- START PHILOSOPHY SECTION -->
+   
+   <section class="philosophy-section">
+       <div class="row">
+           <h2><span class="arrow ">&rtrif;</span>our philosophy<span class="arrow ">&ltrif;</span></h2>
+           <div class="phil-hero">
+           <div class="col span_1_of_2 box1">
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore cupiditate dolorum corporis voluptate laboriosam, voluptatum non at rerum hic, totam qui amet autem neque odit illo velit aut fugiat. Quibusdam.</p>
+           </div>
+            <div class="col span_1_of_2 box2">
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore cupiditate dolorum corporis voluptate laboriosam, voluptatum non at rerum hic, totam qui amet autem neque odit illo velit aut fugiat. Quibusdam.</p>
+           </div>
+          </div>
+          <a href="#" class="btn btn-phil">read more</a>
+       </div>
+   </section>
+   
+   <!-- END PHILOSOPHY SECTION -->
+   
+   <!-- START DEMO LEARN SECTION -->
+   
+   <section class="demo-learn-section" id="blog">
+       <div class="row">
+           <div class="col span_1_of_3">
+              <h3>first Class Free</h3>
+               <img width="70%" height="350px" src="resources/img/1.jpg" class="demo-learn-img" alt="">
+               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, seddiam nonummyeuismod tincidunt ut laoreet dolore magna aliquam</p>
+               <span class="arrow">&rtrif;</span><a href="#" class="btn btn-demo-learn">read more</a>
+           </div>
+           <div class="col span_1_of_3">
+              <h3>harmony your body</h3>
+               <img width="70%" height="350px" src="resources/img/2ex.jpg" class="demo-learn-img" alt="">
+               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, seddiam nonummyeuismod tincidunt ut laoreet dolore magna aliquam</p>
+               <span class="arrow">&rtrif;</span><a href="#" class="btn btn-demo-learn">read more</a>
+           </div>
+           <div class="col span_1_of_3">
+              <h3>yoga for beginners</h3>
+               <img width="70%" height="350px" src="resources/img/3.jpg" class="demo-learn-img" alt="">
+               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, seddiam nonummyeuismod tincidunt ut laoreet dolore magna aliquam</p>
+               <span class="arrow">&rtrif;</span><a href="#" class="btn btn-demo-learn">read more</a>
+           </div>
+       </div>
+   </section>
+   
+   <!-- END DEMO LEARN SECTION -->
+   
+   <!-- START YOGA BEGINNER SECTION -->
+   
+   <section class="yoga-beginner-section">
+       <div class="row">
+           <h3>yoga for beginners</h3>
+           <div class="col span_1_of_2">
+               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.<br/>
+               Lorem ipsum dolor sit amet. consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut. </p>
+               <span class="arrow">&rtrif;</span> <a href="#" class="btn btn-beginner">read more</a>
+           </div>
+           <div class="col span_1_of_2">
+               <img src="resources/img/4.jpg" alt="Yoga for beginner" class="beginner-img">
+           </div>
+       </div>
+   </section>
+   
+   <!-- END YOGA BEGINNER SECTION -->
+   
+   <!-- START REGISTRATION SECTION -->
+   
+   <section class="reg-section">
+       <div class="row">
+           <div class="col span_1_of_2">
+               <img src="resources/img/5.jpg" alt="" class="musica">
+           </div>
+           <div class="col span_1_of_2">
+               <h4>“ Your strenght is how calmly,<br/> quietly and peacefully<br/> you face life”</h4>
+               <span class="yogi">&ltrif; Yogi B.</span>
+           </div>
+       </div>
+       <div class="row reg-hero-div">
+           <h3 id="yoga-hero">yoga</h3>
+           <h3 class="reg-open">registration open</h3>
+           <div class="get15"> 
+           <span class="arrow-discount">&rtrif;</span><span class="discount-hero">get 15% off</span><span class="arrow-discount">&ltrif;</span>
+           </div>
+           
+           <a href="#" class="btn btn-reg">sign up now</a>
+           </div>
+   </section>
+   
+   <!-- END REGISTRATION SECTION -->
+   
+   <!-- START FREE CLASS SECTION -->
+   
+   <section class="free-class-section" id="class">
+       <div class="row">
+           
+           <div class="col span_1_of_3 class">
+               <h3>first Class Free</h3>
+               <img src="resources/img/6.jpg" alt="" class="class-bg">
+               <p>Lorem ipsum dolor sit amet, con sectetuer adipiscing elit, seddiam nonummy nibh.</p>
+               <span class="arrow">&rtrif;</span> <a href="#" class="btn btn-beginner btn-free">read more</a>
+           </div>
+           <div class="col span_1_of_3 class">
+               <h3>first Class Free</h3>
+               <img src="resources/img/7.jpg" alt="" class="class-bg">
+               <p>Lorem ipsum dolor sit amet, con sectetuer adipiscing elit, seddiam nonummy nibh.</p>
+               <span class="arrow">&rtrif;</span> <a href="#" class="btn btn-beginner btn-free">read more</a>
+           </div>
+           <div class="col span_1_of_3 class">
+               <h3>first Class Free</h3>
+               <img src="resources/img/8.jpg" alt="" class="class-bg">
+               <p>Lorem ipsum dolor sit amet, con sectetuer adipiscing elit, seddiam nonummy nibh.</p>
+               <span class="arrow">&rtrif;</span> <a href="#" class="btn btn-beginner btn-free">read more</a>
+           </div>
+       </div>
+   </section>
+   
+   <!-- END FREE CLASS SECTION -->
+   
+   <!-- START METHODOLOGY SECTION -->
+   
+   <section class="methodology-section">
+       <div class="row">
+           <h2 class="method-hero">our methodology</h2>
+        <div class="method">
+           <div class="col span_1_of_2">
+               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit</p>
+           </div>
+           <div class="col span_1_of_2">
+               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit</p>
+           </div>
+           </div>
+           <a href="#" class="btn btn-method">read more</a>
+         
+       </div>
+   </section>
+   
+   <!-- END METHODOLOGY SECTION -->
+   
+   <!-- START YOGA THERAPY SECTION -->
+   
+   <section class="therapy-section">
+      <div class="row">
+        <div class="therapy-div">
+         <h4><span class="step">&ltrif;  </span>inhale</h4>
+          <h4><span class="step">&ltrif;  </span>exhale</h4>
+           <h3 class="therapy-hero">yoga   therapy</h3>
+         </div>
+       </div>
+   </section>
+   
+   <!-- END YOGA THERAPY SECTION -->
+   
+   <!-- START FOOTER SECTION -->
+   
+   <section class="footer-section" id="contact">
+       <div class="row">
+           <div class="mix">
+               <span class="footer-span">&rtrif;  </span><h4>contact</h4>
+               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
+           </div>
+           <div class="mix ">
+              <div class="mix-center">
+               <span class="footer-span">&rtrif;  </span><h4>about</h4>
+               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,</p>
+               </div>
+           </div>
+           <div class="mix">
+              <div class="mix-right">
+               <span class="footer-span">&rtrif;  </span><h4>follow us</h4>
+               <div class="mix-icon">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+               </div>
+           </div>
+       </div>
+   </section>
+   
+   <!-- END FOOTER SECTION -->
+   
+   <!-- JS SCRIPT -->
+   <script src="vendors/js/html5shiv.min.js"></script>
+   <script src="vendors/js/respond.min.js"></script>
+   <script src="vendors/js/selectivizr-min.js"></script>
+   <script src="resources/js/main.js"></script>
+   
+</body>
+</html>

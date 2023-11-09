@@ -1,0 +1,356 @@
+@media only screen and (max-width:1024px) {
+    
+    header {
+        height: ;
+    }
+    header::before {
+        height: 100%;
+        bottom: 16rem;
+    }
+    header::after {
+        height: 100%;
+        bottom: 16rem;
+    }
+    .therapy-section {
+        height: 75vh;
+    }
+    .therapy-section::before {
+        height: 14%;
+        top: -2.5rem;
+    }
+    .footer-section {
+        padding: .7rem 0 3rem 0;
+        top: 0rem
+    }
+    .footer-section::before {
+        height: 80%;
+    }   
+}
+
+@media only screen and (max-width: 980px) {
+    
+    .demo-learn-section::before {
+        transform: skewY(-10deg);
+    }
+
+    .demo-learn-section::after {
+        transform: skewY(-10deg);
+    }
+    .methodology-section {
+        padding-bottom: 2rem;
+    }
+    .therapy-section {
+        height: 65vh;
+    }
+    .footer-section {
+        padding: .7rem 0 3rem 0;
+        top: 0rem
+    }
+    .footer-section::before {
+        height: 80%;
+    }  
+    
+}
+
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: 85%;
+    }
+    /* HEADER SECTION */
+    
+    .main-nav {
+        display: none;
+    }
+    .main-nav li a {
+        padding: 1rem 1.2rem;
+        font-size: .9rem;
+    }
+    .mobile-menu span {
+        display: block;
+    }
+    
+    .hero-text-box {
+        margin-top: 1rem;
+    }
+    .hero-text-box h1 {
+        font-size: 2.5rem;
+        letter-spacing: .2rem;
+    }
+    .hero-text-box h1 a {
+        color: #fff;
+        font-family: arial;
+        font-size: 2.4rem;
+        font-weight: 500;
+        letter-spacing: .1rem;
+    }
+    .hero-text-box h3 {
+        margin: 2.5rem 0 .5rem 0;
+        font-size: 17px;
+    }
+    .hero-text-box p {
+        font-size: 13px;
+    }
+    header {
+        height: vh;
+    }
+    header::before {
+        height: 100%;
+        bottom: 27rem;
+    }
+    header::after {
+        height: 100%;
+        bottom: 27rem;
+    }
+    
+    /* PHILOSOPY SECTION */
+    
+    .philosophy-section {
+        background: url(../img/philosopy.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 45rem;
+        text-align: center;
+        padding: 6rem 0rem 0 0rem;
+    }
+    
+    /* DEMO LEARN SECTION */
+    
+    .demo-learn-section {
+        padding-bottom: 4.9rem;
+    }
+    .demo-learn-section::before,
+    .demo-learn-section::after {
+        transform: skewY(-10deg);
+    }
+    .demo-learn-section img {
+        width: 78%;
+        height: 290px;
+    }
+    .demo-learn-section .span_1_of_3 {
+        width: 33%;
+    }
+    .demo-learn-section .span_1_of_3 h3 {
+        font-size: 1.1rem;
+        width: 50%;
+    }
+    .demo-learn-section .span_1_of_3 p {
+        width: 90%;
+        text-align: left;
+        font-size: .9rem;
+        margin-left: 1rem;
+    }
+    .demo-learn-section .span_1_of_3:nth-child(1) {
+        top: -3rem;
+        margin-left: .6rem;
+    }
+    .demo-learn-section .span_1_of_3:nth-child(2) {
+        top: -6.5rem;
+        margin-left: -.5rem;
+    }
+    .demo-learn-section .span_1_of_3:nth-child(3) {
+        top: -10rem;
+        margin-left: -.5rem;
+    }
+    .demo-learn-section span.arrow {
+        top: -.1rem;
+        left: -.1px;
+        font-size: 2.9rem;
+    }
+    .demo-learn-section .btn-demo-learn {
+        text-align: center;
+        margin: 1rem 3rem 0 0;
+        padding: .37rem .10rem;
+        font-size: .9rem;
+        width: 42%;
+        display: inline-block;
+    }
+    .demo-learn-section .span_1_of_3:nth-child(3) .btn-demo-learn {
+        margin-left: px
+    }
+    
+    /* YOGA BEGINNER SECTION */
+    
+    .yoga-beginner-section::before {
+        transform: skewY(6deg);
+    }
+    .yoga-beginner-section h3 {
+        width: 53%;
+        font-size: 1.3rem;
+    }
+    .yoga-beginner-section .row {
+        width: 90%;
+    }
+    .yoga-beginner-section p {
+        text-align: justify;
+        width: 90%;
+    }
+    .yoga-beginner-section .col:nth-child(2) {
+        margin-left: 1rem;
+    }
+    .yoga-beginner-section .beginner-img {
+        width: 95%;
+    }
+    .yoga-beginner-section .btn-beginner {
+        margin-left: -8rem;
+        padding: .25rem .55rem;
+        font-size: .95rem;
+    }
+    .yoga-beginner-section .arrow {
+        left: -8.2rem;
+        top: .4rem;
+        font-size: 2.7rem;
+    }
+    
+    /* REGISTRATION SECTION */
+    
+    
+    .reg-section img.musica {
+        width: 48.5%;
+        position: relative;
+        top: 1rem;
+    }
+
+    .reg-section .span_1_of_2:last-child {
+        width: 48.5%;
+        height: 11.3rem;
+        top: -11.4rem;
+    }
+    .reg-section .reg-hero-div {
+        text-align: center;
+        margin-top: -4rem;
+    }
+    .reg-hero-div #yoga-hero {
+        padding: .5rem 1.2rem;
+        position: relative;
+        left: 8rem;
+    }
+
+    .reg-hero-div h3.reg-open {
+        width: 50%;
+        height: 2.1rem;
+        font-size: 1.2rem;
+        line-height: .9rem;
+    }
+    
+    /* FREE CLASS SECTION */
+
+    .free-class-section .row {
+        display: inline-flex;
+        position: relative;
+        top: -2rem;
+    }
+    .class h3 {
+        margin-left: .5rem;
+    }
+    .free-class-section .col:nth-child(1) {
+        margin-right: .5rem;
+    }
+    .free-class-section .col:nth-child(2) {
+        margin-right: .5rem;
+    }
+    .class .class-bg {
+        width: 86%;
+        margin: .7rem .3rem;
+    }
+    .class p {
+        width: 100%;
+        margin-left: .3rem;
+    }
+    .class span {
+        position: relative;
+        top: -.3rem;
+        left: -.4rem;
+        font-size: 2.7rem; 
+    }
+    .class a.btn-free {
+        margin: -2.5rem 3.7rem 0 2rem;
+        padding: .3rem .3rem;
+        width: 44%;
+        font-size: .85rem;
+    }
+    
+    /* METHODOLOGY SECTION */
+    .methodology-section {
+        padding-bottom: 3rem;
+        padding-top: 2rem
+    }
+    .methodology-section .method {
+        margin-left: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .methodology-section .col {
+        width: 50%;
+    }
+
+    .methodology-section p {
+        width: 88%;
+    }
+    .btn-method {
+        font-size: 1rem
+    }
+    
+    /* THERAPY SECTION */
+    
+    .therapy-section {
+        height: 44.8vh;
+    }
+
+    .therapy-section::before {
+        height: 15%;
+    }
+    .therapy-section::after {
+        bottom: 1.3rem;
+    }
+    .therapy-section .therapy-div {
+        top: 2rem;
+    }
+    
+    /* FOOTER SECTION */
+    
+    .footer-section {
+        padding: 1rem 0 0rem 0;
+    }
+    .footer-section::before {
+        height: 90%;
+    }
+    .mix {
+        width: 30%;
+        float: left;
+        position: relative;
+        top: -1.5rem;
+        left: 2rem;
+    }
+    .footer-section span {
+        font-size: 1.7rem;
+    }
+
+    .footer-section h4 {
+        font-size: .8rem;
+    }
+    .footer-section h4 {
+        margin-left: 0
+    }
+    .footer-section .mix p {
+        font-size: .7rem;
+        width: 89%
+    }
+    .mix .mix-center {
+        margin-left: 0%;
+        position: relative;
+        left: 2rem;
+    }
+    .mix .mix-center::before {
+        width: .07rem;
+        left: -2.4rem;
+    }
+    .mix .mix-center::after {
+        width: .03rem;
+        right: .5rem;
+    }
+    .mix-icon a:hover {
+    background: #3F505A;
+    border: 1px solid #3F505A;
+    }
+    
+}
