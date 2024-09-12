@@ -1,1 +1,1 @@
-# projects.github.io
+Every folder contain an individual website.
