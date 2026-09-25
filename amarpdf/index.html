@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="AmarPDF — free online PDF tools to merge, split, compress, edit, convert, resize images, rotate, sign and organize PDF and image files directly in your browser.">
+  <meta name="keywords" content="free PDF tools, online PDF editor, merge PDF, split PDF, compress PDF, edit PDF, rotate PDF, PDF converter, PDF tools, AmarPDF">
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+  <meta name="theme-color" content="#e5322d">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="AmarPDF — Free Online PDF Tools">
+  <meta property="og:description" content="Merge, split, compress, edit, convert, rotate and organize PDFs directly in your browser with AmarPDF.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="AmarPDF — Free Online PDF Tools">
+  <meta name="twitter:description" content="Free browser-based PDF tools for editing and managing PDF files.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23e5322d'/%3E%3Cpath d='M18 12h21l11 11v29H18z' fill='white'/%3E%3Cpath d='M39 12v13h13' fill='%23e5322d'/%3E%3Ctext x='31' y='46' text-anchor='middle' font-family='Arial' font-size='16' font-weight='700' fill='%2333333b'%3EPDF%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#" data-home><span class="brand-mark" aria-hidden="true">AP</span><span>AmarPDF</span></a>
+  <nav><a href="#tools">All PDF Tools</a><a href="#privacy">How it works</a><a href="#about">About</a></nav><a id="donateTop" class="btn btn-support" href="#" target="_blank" rel="noopener">♥ Support me</a>
+</header>
+
+<main>
+  <section id="home" class="hero">
+    <div class="hero-copy">
+      <span class="eyebrow">FREE • PRIVATE • BROWSER-BASED</span>
+      <h1>Free online PDF tools, all in one place.</h1>
+      <p>Merge, split, compress, edit, convert, rotate and organize PDF files directly in your browser. Fast, simple and privacy-first.</p>
+      <label class="hero-drop" id="homeDrop">
+        <input id="homeInput" type="file" accept="application/pdf,.pdf" multiple>
+        <span class="upload-icon">↑</span>
+        <strong>Choose PDF files</strong>
+        <span>or drag & drop them here</span>
+      </label>
+      <div id="homeFiles" class="selected-files hidden"></div>
+      <div id="homeActions" class="quick-actions hidden"></div>
+      <p class="privacy-note">Nothing is sent to a server by this site. A 30-minute local workspace timer clears in-memory working files.</p>
+    </div>
+  </section>
+
+  <section id="tools" class="section">
+    <div class="section-head">
+      <div><span class="eyebrow">PDF TOOLBOX</span><h2>Free PDF tools</h2></div>
+      <input id="toolSearch" class="search" placeholder="Search tools…" autocomplete="off">
+    </div>
+    <div id="toolGrid" class="tool-grid"></div>
+  </section>
+
+  <section id="workspace" class="section workspace hidden">
+    <div class="workspace-head">
+      <div>
+        <button id="backBtn" class="btn btn-ghost">← Tools</button>
+        <span id="toolKicker" class="eyebrow"></span>
+        <h2 id="toolTitle"></h2>
+        <p id="toolDesc"></p>
+      </div>
+      <div class="timer" title="Local workspace cleanup timer">Privacy timer <b id="timer">30:00</b></div>
+    </div>
+    <div id="toolMount"></div>
+    <div id="status" class="status" aria-live="polite"></div><div id="completionNotice" class="completion-notice hidden"><strong>Privacy notice</strong><span>Your temporary working data will be automatically cleared from this page after 30 minutes. Files you download remain on your device and cannot be deleted by this website.</span></div>
+  </section>
+
+  <section id="privacy" class="info-section">
+    <div><span class="eyebrow">PRIVACY</span><h2>Your PDF stays on your device.</h2></div>
+    <p>AmarPDF is designed as a static GitHub Pages site. PDF processing happens in your browser. There is no upload API in this project. The 30-minute timer clears the page's working references and object URLs; a file you already downloaded cannot be deleted from your device by a website.</p>
+  </section>
+
+  <section id="about" class="info-section">
+    <div><span class="eyebrow">ABOUT</span><h2>Built to be useful, not complicated.</h2></div>
+    <p>AmarPDF uses browser JavaScript plus PDF.js and pdf-lib. The project has no framework or build step, so you can customize the separate CSS/JS files and host it directly on GitHub Pages.</p>
+  </section>
+</main>
+
+<footer>
+  <span>© all rights reserved by <a class="footer-owner" href="https://mail.google.com/mail/?view=cm&fs=1&to=sajibkumarnath360@gmail.com" target="_blank" rel="noopener noreferrer">SAJIB KUMAR NATH</a></span>
+  <a id="donateBottom" href="#" target="_blank" rel="noopener">Support the project ♥</a>
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebApplication",
+  "name":"AmarPDF",
+  "description":"Free browser-based PDF tools for merging, splitting, compressing, editing, converting and organizing PDF files.",
+  "applicationCategory":"BusinessApplication",
+  "operatingSystem":"Web Browser",
+  "offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},
+  "featureList":["Merge PDF","Split PDF","Compress PDF","Edit PDF","Rotate PDF","Watermark PDF","Add page numbers","PDF to Images","Images to PDF","Image Resize","Image Resolution","Add signature","Fill PDF forms"]
+}
+</script>
+
+<!-- Classic scripts are intentional: this also works when you open index.html locally. -->
+<script src="https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script>
+  // Use the PDF.js worker on normal web hosting for better performance.
+  // When opened directly as file://, disable the worker for local-file compatibility.
+  if (window.pdfjsLib) {
+    pdfjsLib.GlobalWorkerOptions.workerSrc =
+      location.protocol === "file:"
+        ? ""
+        : "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
+  }
+</script>
+<script src="app.js"></script>
+</body>
+</html>
